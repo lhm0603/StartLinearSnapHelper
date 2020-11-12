@@ -53,5 +53,5 @@ publish {
     artifactId = 'StartLinearSnapHelper'
     publishVersion = "1.0.0" //版本号
     desc = "线性RecyclerView的SnapHelper，支持靠左或者靠右吸附" //描述，选填
-    website = "https://github.com/x78wteam/X78WRouter/tree/master/TestApp"
+    website = "https://github.com/lhm0603/StartLinearSnapHelper"
 }
