@@ -1,0 +1,3 @@
+include ':Sample'
+include ':library'
+rootProject.name = "StartLinearSnapHelper"
