@@ -48,7 +48,7 @@ dependencies {
 //推送到Bintray配置
 publish {
     repoName = 'maven'
-    userOrg = "linhuaming0603 "
+    userOrg = "linhuaming0603"
     groupId = "com.xm.widget"
     artifactId = 'StartLinearSnapHelper'
     publishVersion = "1.0.0" //版本号
