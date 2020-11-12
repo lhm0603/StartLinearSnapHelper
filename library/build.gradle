@@ -12,7 +12,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -51,7 +51,7 @@ publish {
     userOrg = "linhuaming0603"
     groupId = "com.xm.widget"
     artifactId = 'StartLinearSnapHelper'
-    publishVersion = "1.0.0" //版本号
+    publishVersion = "1.0.1" //版本号
     desc = "线性RecyclerView的SnapHelper，支持靠左或者靠右吸附" //描述，选填
     website = "https://github.com/lhm0603/StartLinearSnapHelper"
 }
