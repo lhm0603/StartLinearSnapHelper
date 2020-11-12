@@ -1,4 +1,4 @@
-package com.xm
+package com.xm.widget.startlinearsnaphelper.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

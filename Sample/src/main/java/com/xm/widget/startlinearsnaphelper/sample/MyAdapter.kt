@@ -1,4 +1,4 @@
-package com.xm
+package com.xm.widget.startlinearsnaphelper.sample
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.xm.MyAdapter.MyViewHolder
+import com.xm.widget.startlinearsnaphelper.sample.MyAdapter.MyViewHolder
 
 class MyAdapter : RecyclerView.Adapter<MyViewHolder>() {
     private val colors: IntArray =
