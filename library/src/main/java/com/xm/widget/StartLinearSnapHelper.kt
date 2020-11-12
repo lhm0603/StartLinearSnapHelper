@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
  * @author XiaoMing 461415832@qq.com
  * @see 2020-11-11
  */
-class XmLinearSnapHelper : LinearSnapHelper() {
+class StartLinearSnapHelper : LinearSnapHelper() {
     private companion object {
         const val DIRECTION = 2
 
