@@ -1,7 +1,11 @@
+
 # StartLinearSnapHelper
 一个可以让线性RecyclerView的Item居左或者居右吸附对齐的SnapHelper类，集成自 LinearSnapHelper，修改了对齐规则为靠左或者靠右
+<img src="https://raw.githubusercontent.com/lhm0603/FigureBed/master/StartLinearSnapHelper_Demo.gif" width = "400" />
 
-![](https://raw.githubusercontent.com/lhm0603/FigureBed/master/StartLinearSnapHelper_Demo.gif)
+## Github：
+
+[https://github.com/lhm0603/StartLinearSnapHelper](https://github.com/lhm0603/StartLinearSnapHelper)
 
 ## 添加依赖
 
