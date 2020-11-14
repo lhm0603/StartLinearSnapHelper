@@ -11,8 +11,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        rvSnapHelper.layoutManager = LinearLayoutManager(this, RecyclerView.HORIZONTAL, false)
-        rvSnapHelper.adapter = MyAdapter()
-        StartLinearSnapHelper().attachToRecyclerView(rvSnapHelper)
+        rvSnapHelper1.layoutManager = LinearLayoutManager(this, RecyclerView.HORIZONTAL, false)
+        rvSnapHelper1.adapter = MyAdapter()
+        StartLinearSnapHelper().attachToRecyclerView(rvSnapHelper1)
+
+        // reverseLayout true
+        rvSnapHelper2.layoutManager = LinearLayoutManager(this, RecyclerView.HORIZONTAL, true)
+        rvSnapHelper2.adapter = MyAdapter()
+        StartLinearSnapHelper().attachToRecyclerView(rvSnapHelper2)
+
+        // orientation Vertical
+        rvSnapHelper3.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
+        rvSnapHelper3.adapter = MyAdapter()
+        StartLinearSnapHelper().attachToRecyclerView(rvSnapHelper3)
     }
 }

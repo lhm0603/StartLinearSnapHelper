@@ -1,6 +1,8 @@
 # StartLinearSnapHelper
 一个可以让线性RecyclerView的Item居左或者居右吸附对齐的SnapHelper类，集成自 LinearSnapHelper，修改了对齐规则为靠左或者靠右
 
+![](https://gitee.com/hm0603/figure-bed/raw/master/StartLinearSnapHelper_Demo.gif)
+
 ## 添加依赖
 
 ```
@@ -24,8 +26,6 @@ recyclerView.setLayoutManager(new LinearLayoutManager(this,RecyclerView.HORIZONT
 recyclerView.setAdapter(new MyAdapter());
 new StartLinearSnapHelper().attachToRecyclerView(recyclerView);
 ```
-
-
 
 ## 许可证
 
